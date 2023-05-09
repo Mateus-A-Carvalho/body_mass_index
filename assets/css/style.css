@@ -1,0 +1,112 @@
+:root {
+  --primary-color: rgb(17, 86, 102) /* Usando variável*/
+}
+
+html {
+  background: url(https://img.rawpixel.com/private/static/images/website/2022-05/ns7715-image-kwvyb7km.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=381e94e09e2c89f762d2c41d57826f52) no-repeat center center fixed;
+  /* -webkit-backgrund-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  height: 100%;
+}
+
+/* Resetando as propriedades */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+}
+/* Resetando as propriedades */
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0 15px;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: #202125c4;
+  padding: 20px;
+  border-radius: 50px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  color: #fff;
+}
+
+.result {
+  display: flex;
+  width: 100%;
+  justify-content:space-around;
+  align-items: center;
+}
+
+
+.area-data  input {
+  display: block;
+  margin: 0 auto 10px;
+  background-color: #abababbb;
+  color: #fff;
+  border-radius: 5px
+}
+
+.area-data label {
+  display: block;
+  margin: 0 auto 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.area-data button {
+  display: block;
+  margin: 20px auto 15px;
+  width: 170px;
+  height: 50px;
+  border-radius: 10px 10px;
+  background-color: #414c5a;
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.area-data input, button {
+  width: 170px;
+}
+
+.area-data button:hover {
+  background-color: #496778;
+  color: #fff;
+  cursor: pointer;
+}
+
+input:focus {
+  border: 2px solid #ffffffaa
+}
+
+.result {
+ position: absolute; 
+ top: 65%
+}
+
+.good {
+  background-color: rgba(92, 221, 66, 0.85);
+  padding: 10px 20px;
+  border-radius: 10px 10px;
+}
+
+.bad {
+  background-color: rgba(251, 80, 80, 0.85);
+  padding: 10px 20px;
+  border-radius: 10px 10px
+}
